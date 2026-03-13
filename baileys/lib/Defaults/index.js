@@ -66,8 +66,7 @@ export const DEFAULT_CONNECTION_CONFIG = {
     countryCode: 'US',
     getMessage: async () => undefined,
     cachedGroupMetadata: async () => undefined,
-    makeSignalRepository: makeLibSignalRepository,
-    binaryHelper: false
+    makeSignalRepository: makeLibSignalRepository
 };
 export const MEDIA_PATH_MAP = {
     image: '/mms/image',
